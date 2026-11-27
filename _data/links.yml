@@ -1,0 +1,30 @@
+# LINKS
+# academic: profiles shown at the top of the Publications page (Google Scholar, ORCID...).
+# social: social networks, shown in small on the home page.
+
+academic:
+- label: Google scholar
+  url: https://scholar.google.com/citations?user=ngkCAJYAAAAJ
+- label: ORCID
+  url: https://orcid.org/0000-0003-4249-7337
+- label: Semantic Scholar
+  url: http://www.semanticscholar.org/author/Pierre-Alquier/11360584
+- label: dblp
+  url: https://dblp.org/pid/15/8421
+- label: ResearchGate
+  url: http://www.researchgate.net/profile/Pierre_Alquier
+- label: MathSciNet
+  url: https://mathscinet.ams.org/mathscinet/author?authorId=845849
+- label: zbMATH
+  url: http://zbmath.org/authors/?q=alquier.pierre
+- label: Mathematical Genealogy Project
+  url: http://www.genealogy.math.ndsu.nodak.edu/id.php?id=156935
+social:
+- label: LinkedIn
+  url: http://www.linkedin.com/in/pierre-alquier-601453159/
+- label: Bluesky
+  url: https://bsky.app/profile/pierrealquier.bsky.social
+- label: Mixi 2
+  url: https://mixi.social/@PierreAlquier
+- label: YouTube
+  url: https://www.youtube.com/@PierreAlquierVideos

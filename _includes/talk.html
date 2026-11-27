@@ -1,0 +1,7 @@
+<li class="item dated{% if x.date == "" %} follow{% endif %}">
+  <div class="date">{{ x.date }}</div>
+  <div class="item-body">
+    <div>{{ x.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div>
+    {% if x.photos %}<div class="thumbs">{% for ph in x.photos %}<a href="{% if ph.link %}{{ ph.link }}{% else %}{{ ph.src }}{% endif %}"><img src="{{ ph.src }}" alt="" loading="lazy"></a>{% endfor %}</div>{% endif %}
+  </div>
+</li>

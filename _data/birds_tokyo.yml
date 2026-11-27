@@ -1,0 +1,214 @@
+# BIRDS OF TOKYO (hidden page birds2.html, linked from the Birds page) — one entry per species, in display order.
+# Each: name, name_ja, note (optional), photos: list of {src, caption (optional)}.
+
+title: Herons of Tokyo
+intro: Herons in Tokyo can be seen anywhere. They fish in all the rivers, even in the city center, and are easily approachable, at least the grey heron, the great egret, the little egret and the black-crowned night heron. If you leave the city center, you can meet other herons that are a little shier. I bought a camera during the epidemic and decided to try to take photos of them. If you want to know more about the places where I took these photos, or if you know some good places, please don't hesitate to contact me! Also, there are a few videos of the same birds in my [YouTube Channel](https://www.youtube.com/@PierreAlquierVideos).
+species:
+- name: Grey heron
+  name_ja: アオサギ
+  photos:
+  - src: photos_birds/gh1.jpg
+    caption: Juvenile, Senzoku Ike, April 2021.
+  - src: photos_birds/gh2.jpg
+    caption: Juvenile, Institute for Nature Study, Meguro, October 2020.
+  - src: photos_birds/gh3.jpg
+    caption: Togoshi Park, July 2022.
+  - src: photos_birds/gh3a.jpg
+    caption: Nakameguro, May 2021.
+  - src: photos_birds/gh4.jpg
+    caption: Juvenile, Nakameguro, December 2020.
+  - src: photos_birds/gh5.jpg
+    caption: Juvenile, Nakameguro, December 2020.
+  - src: photos_birds/gh6.jpg
+    caption: Juvenile, Senzoku Ike, March 2021.
+  - src: photos_birds/gh7.jpg
+    caption: Shakuji River, February 2021.
+  - src: photos_birds/gh8.jpg
+    caption: Nakameguro, December 2020.
+  - src: photos_birds/gh9.jpg
+    caption: With eastern spot-bille duck, Ukima Park, July 2022.
+- name: Little egret
+  name_ja: コサギ
+  photos:
+  - src: photos_birds/le1.jpg
+    caption: Tsukishima, September 2020.
+  - src: photos_birds/le2.jpg
+    caption: Tsukishima, September 2020.
+  - src: photos_birds/le3.jpg
+    caption: Tsukishima, September 2020.
+  - src: photos_birds/le4.jpg
+    caption: Koike, February 2021.
+  - src: photos_birds/le5.jpg
+    caption: Koike, February 2021.
+  - src: photos_birds/le6.jpg
+    caption: Koike, February 2021.
+  - src: photos_birds/le6a.jpg
+    caption: Shinobazu Ike (Ueno), September 2021..
+  - src: photos_birds/le7.jpg
+    caption: Nakameguro, March 2021.
+  - src: photos_birds/le7a.jpg
+    caption: Nakameguro, March 2021. "O'scar", the little egret with a scar on the head. A permanent resident of Nakameguro.
+  - src: photos_birds/le7b.jpg
+    caption: Nakameguro, November 2021. O'scar bathing.
+  - src: photos_birds/le8.jpg
+    caption: Nakameguro, October 2020. O'scar enjoying lunch.
+- name: Black-crowned night heron
+  name_ja: ゴイサギ
+  photos:
+  - src: photos_birds/ne1.jpg
+    caption: Kanda river, March 2021.
+  - src: photos_birds/ne2.jpg
+    caption: Shakuji river, March 2021.
+  - src: photos_birds/ne3.jpg
+    caption: Nakameguro, September 2020.
+  - src: photos_birds/ne3a.jpg
+    caption: Juvenile (1st year), Nakameguro, November 2021.
+  - src: photos_birds/ne3b.jpg
+    caption: Nakameguro, November 2021.
+  - src: photos_birds/ne4.jpg
+    caption: Nakameguro, March 2021.
+  - src: photos_birds/ne5.jpg
+    caption: Juvenile (1st year), Nakameguro, November 2020.
+  - src: photos_birds/ne6.jpg
+    caption: Juvenile (1st year), Nakameguro, November 2020.
+  - src: photos_birds/ne6a.jpg
+    caption: Juvenile (2nd year) with Reeves' pond turtle, Nakameguro, May 2021.
+  - src: photos_birds/ne7.jpg
+    caption: Nakameguro, October 2020.
+  - src: photos_birds/ne8.jpg
+    caption: Nakameguro, November 2020.
+  - src: photos_birds/ne8a.jpg
+    caption: Nakameguro, April 2021.
+  - src: photos_birds/ne8b.jpg
+    caption: Juvenile (1st year), Tsuchiura, July 2021.
+  - src: photos_birds/ne9.jpg
+    caption: Nakameguro, October 2020. "Claude", the night heron with a broken foot, seen every week in Nakameguro from Sept. to Dec. 2020.
+  - src: photos_birds/ne10.jpg
+    caption: Nakameguro, October 2020. Claude.
+  - src: photos_birds/ne11.jpg
+    caption: Nakameguro, November 2020. Claude catched a fish!
+- name: Great egret
+  name_ja: ダイサギ
+  photos:
+  - src: photos_birds/ge1.jpg
+    caption: Tsukishima, September 2020.
+  - src: photos_birds/ge2.jpg
+    caption: Institute for Nature Study, Meguro, October 2020.
+  - src: photos_birds/ge3.jpg
+    caption: Institute for Nature Study, Meguro, March 2021.
+  - src: photos_birds/ge4.jpg
+    caption: Nakameguro, November 2021.
+  - src: photos_birds/ge5.jpg
+    caption: Nakameguro, November 2021.
+- name: Striated heron
+  name_ja: ササゴイ
+  photos:
+  - src: photos_birds/se.jpg
+    caption: Ukima park, August 2021.
+  - src: photos_birds/se2.jpg
+    caption: In conversation with a carrion crow, Ukima park, July 2022.
+  - src: photos_birds/se3.jpg
+    caption: Juveniles (1st year), Ukima park, July 2022.
+  - src: photos_birds/se4.jpg
+    caption: Ukima park, July 2022.
+  - src: photos_birds/se5.jpg
+    caption: Nakameguro, September 2022. Unusual place for this bird!
+- name: Chinese pond heron
+  name_ja: アカガシラサギ
+  photos:
+  - src: photos_birds/cph1.jpg
+    caption: Tega lake, April 2022.
+  - src: photos_birds/cph2.jpg
+    caption: Tega lake, April 2022.
+- name: Cattle egret
+  name_ja: アマサギ
+  photos:
+  - src: photos_birds/ce1.jpg
+    caption: Tsuchiura, July 2021.
+  - src: photos_birds/ce2.jpg
+    caption: Tsuchiura, July 2021.
+  - src: photos_birds/ce3.jpg
+    caption: Tsuchiura, July 2021. "Fight" with two little egrets.
+- name: Yellow bittern
+  name_ja: ヨシゴイ
+  photos:
+  - src: photos_birds/yb1.jpg
+    caption: Kawagoe, July 2021.
+  - src: photos_birds/yb2.jpg
+    caption: Kawagoe, July 2021.
+  - src: photos_birds/yb3.jpg
+    caption: Kawagoe, July 2021.
+- name: Intermediate egret
+  name_ja: チュウサギ
+  photos:
+  - src: photos_birds/ie1.jpg
+    caption: Tega Lake, July 2022.
+  - src: photos_birds/ie2.jpg
+    caption: Babies, Tsuchiura, July 2021.
+  - src: photos_birds/ie3.jpg
+    caption: Tsuchiura, July 2021.
+- name: Other birds
+  name_ja: 他の鳥
+  photos:
+  - src: photos_birds/otherbk.jpg
+    caption: Black kite, Ooiso, September 2021.
+  - src: photos_birds/othergp.jpg
+    caption: Grean Pheasant, Tega Lake, July 2022.
+  - src: photos_birds/otherkf1.jpg
+    caption: Kingfisher (with eastern spot-billed ducks), Nakameguro, March 2022.
+  - src: photos_birds/otherkf2.jpg
+    caption: Kingfisher (with little egret), Nakameguro, March 2021.
+  - src: photos_birds/otherkf2a.jpg
+    caption: Kingfisher (with lunch), Nakameguro, October 2022.
+  - src: photos_birds/otherkf3.jpg
+    caption: Kingfisher, Nakameguro, March 2022.
+  - src: photos_birds/otherkf4.jpg
+    caption: Kingfisher, Nakameguro, March 2021.
+  - src: photos_birds/othertdnp.jpg
+    caption: Tufted duck and northern pintails, Senzoku Ike, October 2020.
+  - src: photos_birds/othertd.jpg
+    caption: Tufted duck, Senzoku Ike, February 2021.
+  - src: photos_birds/othermb1.jpg
+    caption: Meadow bunting, Tega Lake, July 2022.
+  - src: photos_birds/othermb2.jpg
+    caption: Meadow bunting, Tega Lake, July 2022.
+  - src: photos_birds/othercc.jpg
+    caption: Carrion crow, Ukima park, May 2021.
+  - src: photos_birds/otherww.jpg
+    caption: White wagtail, Nakameguro, September 2020.
+  - src: photos_birds/othergtt.jpg
+    caption: Grey-tailed tattler, Tokyo Bird Park (Haneda), August 2021.
+  - src: photos_birds/s.jpg
+    caption: Sparrow, Shinobazu Ike (Ueno), September 2021.
+  - src: photos_birds/otherlg1.jpg
+    caption: Little grebe, Hibiya park, October 2020.
+  - src: photos_birds/otherlg2.jpg
+    caption: Little grebe, Senzoku Ike, December 2020.
+  - src: photos_birds/otherjwe.jpg
+    caption: Japanese white-eye, Nakameguro, March 2021.
+  - src: photos_birds/otherbhg.jpg
+    caption: Black-headed gull, Nakameguro, November 2020.
+  - src: photos_birds/otherbtg.jpg
+    caption: Bar-tailed godwit, Tokyo Bird Park (Haneda), August 2021.
+  - src: photos_birds/othergc.jpg
+    caption: Great cormorant, Nakameguro, November 2020.
+  - src: photos_birds/otherbeb.jpg
+    caption: Brown-eared bulbul, Nakameguro, November 2020.
+  - src: photos_birds/otherjt.jpg
+    caption: Japanese tit, Zenpukuji river, February 2021.
+  - src: photos_birds/otherch.jpg
+    caption: Chinese hwamei, Mitsuike park (Yokohama), February 2021.
+  - src: photos_birds/otherdt.jpg
+    caption: Dusky thrush, Nakameguro, January 2021.
+  - src: photos_birds/otherm.jpg
+    caption: Mallard, Kanda river, March 2021.
+  - src: photos_birds/otheresbd.jpg
+    caption: Eastern spot-billed duck, Shakuji River, February 2021.
+  - src: photos_birds/otheresbdt.jpg
+    caption: Eastern spot-billed duck with Reeves' pond turtle, Nakameguro, September 2020.
+  - src: photos_birds/othert.jpg
+    caption: Reeves' pond turtle, Nakameguro, October 2020.
+  - src: photos_birds/otherjrs.jpg
+    caption: Japanese rat snake, Nakameguro, April 2021.
+  - src: photos_birds/otherui.jpg
+    caption: Unidentified insect, Nakameguro, August 2021.

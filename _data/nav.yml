@@ -1,0 +1,25 @@
+# MENU — tabs in display order. "id" must match the "nav:" line at the top of each page.
+- id: home
+  label: Home
+  url: index.html
+- id: publications
+  label: Publications
+  url: publications.html
+- id: talks
+  label: Talks
+  url: talks.html
+- id: students
+  label: PhD students
+  url: students.html
+- id: service
+  label: Service
+  url: service.html
+- id: software
+  label: Software
+  url: software.html
+- id: teaching
+  label: Teaching
+  url: teaching.html
+- id: birds
+  label: 鷺 Birds
+  url: birds.html

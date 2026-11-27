@@ -1,0 +1,19 @@
+---
+layout: default
+title: Teaching
+nav: teaching
+---
+<h1 class="page-title">Teaching</h1>
+
+<section class="block">
+{% for y in site.data.teaching %}
+  <details class="year-fold"{% if forloop.index <= 3 %} open{% endif %}>
+    <summary><span class="year">{{ y.year }}</span><span class="count">{{ y.courses | size }} course{% if y.courses.size > 1 %}s{% endif %}</span></summary>
+    <ol class="list">
+      {% for c in y.courses %}
+      <li class="item course"><div class="inst">{{ c.institution }}</div><div class="item-body">{{ c.course | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div></li>
+      {% endfor %}
+    </ol>
+  </details>
+{% endfor %}
+</section>

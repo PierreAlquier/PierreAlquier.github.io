@@ -1,0 +1,239 @@
+# TEACHING — one block per academic year, newest first.
+# Each course: institution and course (Markdown, links as [label](url)).
+
+- year: 2026–2027
+  courses:
+  - institution: ESSEC
+    course: '[PhD](https://www.essec.edu/en/program/phd-en/phd-program/) - Advanced topics in data analytics (2 classes: a) variational Bayes b) minimum distance estimation with MMD)'
+  - institution: ESSEC
+    course: '[Master DSBA](https://www.essec.edu/en/program/mscs/master-data-sciences-business-analytics/) - Sequential Prediction and Optimization'
+  - institution: ESSEC
+    course: '[Master in Finance](https://www.essec.edu/en/program/mscs/master-finance/) - Statistics'
+  - institution: ESSEC
+    course: '[Master in Finance](https://www.essec.edu/en/program/mscs/master-finance/) - Machine Learning'
+  - institution: ESSEC
+    course: '[Master in Management](https://www.essec.edu/en/program/mscs/master-finance/) - Machine Learning'
+  - institution: ESSEC
+    course: '[IBEA Bachelor](https://www.ibea-bachelor.org/) - Introduction to Data Science'
+- year: 2025–2026
+  courses:
+  - institution: ESSEC
+    course: '[PhD](https://www.essec.edu/en/program/phd-en/phd-program/) - Advanced topics in data analytics (2 classes: a) PAC-Bayes b) learning theory for dependent observations)'
+  - institution: ESSEC
+    course: '[Master DSBA](https://www.essec.edu/en/program/mscs/master-data-sciences-business-analytics/) - Sequential Prediction and Optimization'
+  - institution: ESSEC
+    course: '[Master in Finance](https://www.essec.edu/en/program/mscs/master-finance/) - Machine Learning'
+  - institution: ESSEC
+    course: '[Master in Strategy and Management of International Business](https://www.essec.edu/en/program/master-strategy-management-international-business/) - AI and ML for global business (TBC)'
+  - institution: ESSEC
+    course: '[IBEA Bachelor](https://www.ibea-bachelor.org/) - Introduction to Data Science'
+- year: 2024–2025
+  courses:
+  - institution: ESSEC
+    course: '[PhD](https://www.essec.edu/en/program/phd-en/phd-program/) - Advanced topics in data analytics (1 class: minimum distance estimation with MMD)'
+  - institution: ESSEC
+    course: '[Master DSBA](https://www.essec.edu/en/program/mscs/master-data-sciences-business-analytics/) - Sequential Prediction and Optimization'
+  - institution: ESSEC
+    course: '[Master in Finance](https://www.essec.edu/en/program/mscs/master-finance/) - Machine Learning'
+  - institution: ESSEC
+    course: '[Master in Finance](https://www.essec.edu/en/program/mscs/master-finance/) - Statistics'
+  - institution: ESSEC
+    course: '[Master in Strategy and Management of International Business](https://www.essec.edu/en/program/master-strategy-management-international-business/) - AI and ML for global business'
+  - institution: ESSEC
+    course: '[IBEA Bachelor](https://www.ibea-bachelor.org/) - Introduction to Data Science'
+- year: 2023–2024
+  courses:
+  - institution: ESSEC
+    course: '[PhD](https://www.essec.edu/en/program/phd-en/phd-program/) - Advanced topics in data analytics (2 classes: a) PAC-Bayes b) learning theory for dependent observations)'
+  - institution: ESSEC
+    course: '[Master DSBA](https://www.essec.edu/en/program/mscs/master-data-sciences-business-analytics/) - Sequential Prediction, Optimization and Investment'
+  - institution: ESSEC
+    course: '[Master in Finance](https://www.essec.edu/en/program/mscs/master-finance/) - Machine Learning'
+  - institution: ESSEC
+    course: '[Master in Finance](https://www.essec.edu/en/program/mscs/master-finance/) - Statistics'
+  - institution: ESSEC
+    course: '[IBEA Bachelor](https://www.ibea-bachelor.org/) - Introduction to Data Science'
+  - institution: ESSEC
+    course: '[High School Business Camp](https://essecapac.blog/essec-business-leadership-immersion-program-for-youths-2024/) - Understanding and Managing AI (1 class)'
+- year: 2022–2023
+  courses:
+  - institution: ESSEC
+    course: '[PhD](https://www.essec.edu/en/program/phd-en/phd-program/) - Advanced topics in data analytics (2 classes: a) variational Bayes b) minimum distance estimation with MMD)'
+  - institution: ESSEC
+    course: '[Master DSBA](https://www.essec.edu/en/program/mscs/master-data-sciences-business-analytics/) - Sequential Prediction, Optimization and Investment'
+  - institution: ESSEC
+    course: '[Master in Finance](https://www.essec.edu/en/program/mscs/master-finance/) - Machine Learning'
+  - institution: ESSEC
+    course: '[IBEA Bachelor](https://www.ibea-bachelor.org/) - Introduction to Data Science'
+  - institution: Toulouse School of Economics
+    course: Lectures for PhD students - PAC-Bayes and Mutual Information bounds (as an invited professor)
+- year: 2021–2022
+  courses: []
+- year: 2020–2021
+  courses:
+  - institution: University of Tokyo
+    course: '"Special Topics in Mechano-Informatics II": Two lectures on variational inference & online optimization'
+- year: 2019–2020
+  courses:
+  - institution: University of Tokyo
+    course: '"Special Topics in Mechano-Informatics II": Two lectures on variational inference & online optimization'
+  - institution: University of Bristol - Heilbronn Institute
+    course: Lectures on variational inference as the Heilbronn Visitor in Data Science
+- year: 2018–2019
+  courses:
+  - institution: ENSAE
+    course: 2A - Cours d'introduction aux processus stochastiques
+  - institution: ENSAE
+    course: 2A - Cours d'introduction au machine learning
+  - institution: ENSAE / Paris Saclay
+    course: 3A Data Science, M2 "Data Science" & M2 "StatML" - Cours "Online Learning & Aggregation"
+  - institution: ENSAE / Paris Saclay
+    course: M2 "StatML" - Responsable du master (avec C. Giraud)
+- year: 2017–2018
+  courses:
+  - institution: ENSAE
+    course: 2A - Cours d'introduction aux processus stochastiques
+  - institution: ENSAE
+    course: 2A - Cours d'introduction au machine learning
+  - institution: ENSAE / Paris Saclay
+    course: 3A Data Science, M2 "Data Science" & M2 "StatML" - Cours "Online Learning & Aggregation"
+  - institution: ENSAE / Paris Saclay
+    course: M2 "StatML" - Responsable du master (avec C. Giraud)
+- year: 2016–2017
+  courses:
+  - institution: ENSAE
+    course: 1A ECO - Cours/TD de calcul différentiel et intégral
+  - institution: ENSAE
+    course: 2A - Cours d'introduction aux processus stochastiques
+  - institution: ENSAE
+    course: 2A - Organisation du "séminaire de modélisation statistique"
+  - institution: ENSAE / Paris Saclay
+    course: 3A Data Science & M2 "Data Science" - Cours "Online Learning & Aggregation"
+- year: 2015–2016
+  courses:
+  - institution: ENSAE
+    course: 1A ECO - Cours/TD de calcul différentiel et intégral
+  - institution: ENSAE
+    course: 2A - Cours d'introduction aux processus stochastiques
+  - institution: ENSAE
+    course: 2A - Organisation du "séminaire de modélisation statistique"
+  - institution: ENSAE / Paris Saclay
+    course: 3A Data Science & M2 "Data Science" - Cours "Apprentissage Statistique par Agrégation"
+- year: 2014–2015
+  courses:
+  - institution: ENSAE
+    course: 1A ECO - Cours de calcul différentiel et intégral
+  - institution: ENSAE
+    course: 1A double cursus HEC - Cours/TD de calcul différentiel et intégral
+  - institution: ENSAE
+    course: 2A MATHS - Cours et TD d'introduction aux processus stochastiques
+  - institution: ENSAE
+    course: 2A MATHS - Organisation du "séminaire de modélisation statistique"
+  - institution: ENSAE / Paris Saclay
+    course: M2 "MATHBIGDATA" - Cours "Advanced Machine Learning" (avec M. Pontil)
+  - institution: Université Paris Dauphine
+    course: 'Certificat Data Science - Analytics and Data Mining (Part 2: Supervised Learning)'
+- year: 2013–2014
+  courses:
+  - institution: UCD Dublin
+    course: STAT20100 Inferential Statistics
+  - institution: UCD Dublin
+    course: STAT30250 Linear Models II
+  - institution: UCD Dublin
+    course: STAT30010-STAT40680 Time Series Analysis
+  - institution: UCD Dublin
+    course: STAT30090-STAT40700 Stochastic Models
+  - institution: UCD Dublin
+    course: Director of the MSc, MA and HDip in Statistics
+- year: 2012–2013
+  courses:
+  - institution: UCD Dublin
+    course: STAT30250 Linear Models II
+  - institution: UCD Dublin
+    course: STAT30010-STAT40680 Time Series Analysis
+  - institution: UCD Dublin
+    course: STAT30090-STAT40700 Stochastic Models
+  - institution: UCD Dublin
+    course: STAT40510-STAT40530 Applied Statistical Modelling
+- year: 2011–2012
+  courses:
+  - institution: Université Paris 7
+    course: L3 MASS - Cours d'économétrie
+  - institution: Université Paris 7
+    course: M1 MATHS - Cours de statistique bayésienne
+- year: 2010–2011
+  courses:
+  - institution: Université Paris 7
+    course: L3 MASS - Cours d'économétrie
+  - institution: Université Paris 7
+    course: M1 MATHS - Cours de statistique bayésienne
+- year: 2009–2010
+  courses:
+  - institution: Université Paris 7
+    course: L3 MASS - Cours et TD d'économétrie
+  - institution: Université Paris 7
+    course: 'M1 MATHS - TD de statistique fondamentale (cours: D. Picard)'
+  - institution: Université Paris 7
+    course: 'M1 MATHS - TD de statistique bayésienne (cours: D. Picard)'
+  - institution: Université Paris 7
+    course: 'M2 Modélisation - TD de méthodes basiques en statistiques (cours: D. Picard)'
+  - institution: ENSAE
+    course: '1A ECO - TD de calcul différentiel et intégral (cours: M. Grun-Rehomme)'
+  - institution: Ecole Nationale des Ponts et Chaussées
+    course: 2A - Cours d'apprentissage statistique (avec J.-Y. Audibert et G. Lécué)
+- year: 2008–2009
+  courses:
+  - institution: Université Paris 7
+    course: 'M1 MATHS - TD de statistique fondamentale (cours: D. Picard)'
+  - institution: Université Paris 7
+    course: 'M1 MATHS - TD de méthodes markoviennes en statistique (cours: S. Delattre)'
+  - institution: Université Paris 7
+    course: M1 MATHS - Projets informatiques et algorithmiques (avec J. Salmon et M. Hebiri)
+- year: 2007–2008
+  courses:
+  - institution: Université Paris 7
+    course: 'M1 MATHS - TD de statistique fondamentale (cours: D. Picard)'
+  - institution: Université Paris 7
+    course: 'M1 MATHS - TD de méthodes markoviennes en statistique (cours: S. Delattre)'
+  - institution: Université Paris 7
+    course: M1 MATHS - Projets informatiques et algorithmiques (avec E. Le Pennec et O. Bokanovski)
+- year: 2006–2007
+  courses:
+  - institution: Université Paris Dauphine
+    course: L3 MST-EESE - Cours et TD d'économétrie
+  - institution: Université Paris Dauphine
+    course: 'L3 MASS - TP de NOISE: Nouveaux Outils en Statistique Exploratoire (cours: C. Robert)'
+  - institution: Université Paris Dauphine
+    course: 'M1 MATHS - TP de SAS et modèles linéaires (cours: J. Rousseau)'
+  - institution: Université Paris Dauphine
+    course: 'M1 IAGE - TD de Modélisation et Analyse des Systèmes (cours: C. Pardoux)'
+- year: 2005–2006
+  courses:
+  - institution: Université Paris Dauphine
+    course: L3 MST-EESE - Cours et TD d'économétrie
+  - institution: Université Paris Dauphine
+    course: 'L3 MASS - TP de NOISE: Nouveaux Outils en Statistique Exploratoire (cours: C. Robert)'
+  - institution: Université Paris Dauphine
+    course: 'M1 MIAGE - TD de Modélisation et Analyse des Systèmes (cours: C. Pardoux)'
+- year: 2004–2005
+  courses:
+  - institution: Université Paris Dauphine
+    course: 'L3 MASS - TP de NOISE: Nouveaux Outils en Statistique Exploratoire (cours: C. Robert)'
+  - institution: Université Paris Dauphine
+    course: 'M1 MIAGE - TD de Modélisation et Analyse des Systèmes (cours: C. Pardoux)'
+  - institution: ENSAE
+    course: '1A ECO - TD de calcul intégral (cours: M. Grun-Rehomme)'
+  - institution: ENSAE
+    course: '2A - TD de théorie des tests (cours: J. Diebolt)'
+- year: 2003–2004
+  courses:
+  - institution: Université Paris Dauphine
+    course: 'L1 GEA - Cours et TD de statistique descriptive (responsable: C. Pardoux)'
+  - institution: ENSAE
+    course: '2A - TD d''économétrie (cours: D. Fougère)'
+  - institution: ENSAE
+    course: '2A - TD d''estimation et introduction à la théorie des tests (cours: P. Doukhan)'
+- year: 2002–2003
+  courses:
+  - institution: Lycée Sainte-Marie-de-Neuilly
+    course: Khagne BL - Colles de mathématiques

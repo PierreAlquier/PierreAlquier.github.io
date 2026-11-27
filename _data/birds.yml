@@ -1,0 +1,153 @@
+# BIRDS — one entry per species, in display order.
+# Each: name, name_ja, note (optional), photos: list of {src, caption (optional)}.
+
+title: Herons of Singapore
+intro: 'I replaced my page on the herons of Tokyo by a new page on the herons of Singapore. The herons of Tokyo are still online: [Herons of Tokyo](birds2.html), as well as some videos on my [YouTube Channel](https://www.youtube.com/@PierreAlquierVideos). Please don''t hesitate to contact me if you know good places to meet herons!'
+species:
+- name: Javan pond heron
+  name_ja: ジャワアカガシラサギ
+  photos:
+  - src: photos_birds_2/jpe6.jpg
+  - src: photos_birds_2/jpe7.jpg
+  - src: photos_birds_2/jpe5.jpg
+  - src: photos_birds_2/jpe8.jpg
+  - src: photos_birds_2/jpe2.jpg
+  - src: photos_birds_2/jpe3.jpg
+  - src: photos_birds_2/jpe1.jpg
+  - src: photos_birds_2/jpe4.jpg
+- name: Purple heron
+  name_ja: ムラサキサギ
+  photos:
+  - src: photos_birds_2/pe2.jpg
+  - src: photos_birds_2/pe6.jpg
+  - src: photos_birds_2/pe7.jpg
+  - src: photos_birds_2/pe1.jpg
+  - src: photos_birds_2/pe4.jpg
+  - src: photos_birds_2/pe5_le.jpg
+    caption: With a little egret
+  - src: photos_birds_2/pe3.jpg
+- name: Yellow bittern
+  name_ja: ヨシゴイ
+  photos:
+  - src: photos_birds_2/yb0.jpg
+  - src: photos_birds_2/yb3.jpg
+  - src: photos_birds_2/yb1.jpg
+  - src: photos_birds_2/yb6.jpg
+  - src: photos_birds_2/yb7.jpg
+  - src: photos_birds_2/yb9.jpg
+  - src: photos_birds_2/yb4.jpg
+  - src: photos_birds_2/yb2.jpg
+  - src: photos_birds_2/yb5.jpg
+  - src: photos_birds_2/yb8.jpg
+- name: Pacific reef egret
+  name_ja: クロサギ
+  photos:
+  - src: photos_birds_2/pre1.jpg
+  - src: photos_birds_2/pre2.jpg
+- name: Grey heron
+  name_ja: アオサギ
+  photos:
+  - src: photos_birds_2/ge1.jpg
+  - src: photos_birds_2/ge6.jpg
+  - src: photos_birds_2/ge2.jpg
+  - src: photos_birds_2/ge4.jpg
+  - src: photos_birds_2/ge3.jpg
+    caption: With a yellow bittern
+  - src: photos_birds_2/ge5.jpg
+- name: Von Schrenck's bittern
+  name_ja: オオヨシゴイ
+  photos:
+  - src: photos_birds_2/vsb1.jpg
+  - src: photos_birds_2/vsb2.jpg
+  - src: photos_birds_2/vsb3.jpg
+  - src: photos_birds_2/vsb4.jpg
+- name: Chinese pond heron
+  name_ja: アカガシラサギ
+  photos:
+  - src: photos_birds_2/cpe1.jpg
+  - src: photos_birds_2/cpe3.jpg
+  - src: photos_birds_2/cpe2.jpg
+  - src: photos_birds_2/cpe4.jpg
+  - src: photos_birds_2/cpe6.jpg
+  - src: photos_birds_2/cpe5.jpg
+  - src: photos_birds_2/cpe7.jpg
+- name: Great billed heron
+  name_ja: スマトラサギ
+  photos:
+  - src: photos_birds_2/gbe5.jpg
+  - src: photos_birds_2/gbe1.jpg
+  - src: photos_birds_2/gbe4.jpg
+  - src: photos_birds_2/gbe2.jpg
+  - src: photos_birds_2/gbe3.jpg
+- name: Little egret
+  name_ja: コサギ
+  photos:
+  - src: photos_birds_2/le1.jpg
+  - src: photos_birds_2/le2.jpg
+- name: Striated heron
+  name_ja: ササゴイ
+  photos:
+  - src: photos_birds_2/se2.jpg
+  - src: photos_birds_2/se10.jpg
+  - src: photos_birds_2/se6.jpg
+  - src: photos_birds_2/se8.jpg
+  - src: photos_birds_2/se13.jpg
+  - src: photos_birds_2/se1.jpg
+  - src: photos_birds_2/se3.jpg
+  - src: photos_birds_2/se4.jpg
+  - src: photos_birds_2/se5.jpg
+  - src: photos_birds_2/se7.jpg
+  - src: photos_birds_2/se9.jpg
+  - src: photos_birds_2/se11.jpg
+  - src: photos_birds_2/se12.jpg
+  - src: photos_birds_2/se14.jpg
+  - src: photos_birds_2/se15.jpg
+- name: Black-crowned night heron
+  name_ja: ゴイサギ
+  note: For better photos of the black-crowned night heron, see my page about the [Herons of Tokyo](birds2.html), where it is more common... I really hope I can take better photos of this bird in the future in Singapore.
+  photos:
+  - src: photos_birds_2/ne3.jpg
+  - src: photos_birds_2/ne2.jpg
+  - src: photos_birds_2/ne0.jpg
+  - src: photos_birds_2/ne1.jpg
+- name: Indian pond heron
+  name_ja: インドアカガシラサギ
+  photos:
+  - src: photos_birds_2/ipe1.jpg
+  - src: photos_birds_2/ipe2.jpg
+    caption: Playing hide-and-seek with a Chinese pond heron
+  - src: photos_birds_2/ipe3.jpg
+  - src: photos_birds_2/ipe4.jpg
+  - src: photos_birds_2/ipe5.jpg
+  - src: photos_birds_2/ipe6.jpg
+- name: Malayan night heron
+  name_ja: ズグロミゾゴイ
+  note: A legendary pokemon... I hope I can get better photos someday, but already consider myself very lucky for meeting this bird once!
+  photos:
+  - src: photos_birds_2/mne.jpg
+- name: Great egret
+  name_ja: ダイサギ
+  photos:
+  - src: photos_birds_2/gre1.jpg
+- name: Cattle egret
+  name_ja: アマサギ
+  photos:
+  - src: photos_birds_2/ce1.jpg
+  - src: photos_birds_2/ce2.jpg
+- name: Cinnamon bittern
+  name_ja: リュウキュウヨシゴイ
+  photos:
+  - src: photos_birds_2/cb1.jpg
+  - src: photos_birds_2/cb2.jpg
+  - src: photos_birds_2/cb3.jpg
+  - src: photos_birds_2/cb4.jpg
+  - src: photos_birds_2/cb5.jpg
+- name: Intermediate egret
+  name_ja: チュウサギ
+  photos:
+  - src: photos_birds_2/ie0.jpg
+  - src: photos_birds_2/ie5.jpg
+  - src: photos_birds_2/ie3.jpg
+  - src: photos_birds_2/ie1.jpg
+  - src: photos_birds_2/ie2.jpg
+  - src: photos_birds_2/ie4.jpg

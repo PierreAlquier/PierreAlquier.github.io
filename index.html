@@ -1,70 +1,124 @@
- <!--
-Design by Bryant Smith
-http://www.bryantsmith.com
-http://www.aszx.net
-email: templates [-at-] bryantsmith [-dot-] com
-Released under Creative Commons Attribution 2.5 Generic.  In other words, do with it what you please; but please leave the link if you'd be so kind :)
+---
+layout: default
+nav: home
+---
+{% assign me = site.data.profile %}
+{% assign pubs = site.data.publications %}
+{% assign papers = pubs | where: "type", "paper" %}
+{% assign preprints = pubs | where: "type", "preprint" %}
 
-Name       : A Farewell to Colors
-Description: One column, with top naviagation
-Version    : 1.0
-Released   : 20081230
--->
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="style.css" />
-<link rel="icon" href="pierrealquier.ico" />
-<title>Pierre Alquier - ESSEC ASIA-PACIFIC - Professor of Statistics</title>
-</head>
-
-<body>
-    <div id="page">
-		
-        <div id="header">
-        	<h1>Pierre Alquier</h1>
-            <h2>ESSEC Business School - ASIA PACIFIC - Professor of Statistics</h2>
-            
+<section class="hero">
+  <div class="hero-text">
+    <p class="kicker">{{ me.position }}</p>
+    <h1>{{ me.name }}</h1>
+    <p class="hero-aff">{{ me.affiliation | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+    {% if me.tagline %}<p class="lead">{{ me.tagline }}</p>{% endif %}
+    <div class="contact">
+      <div>
+        <div class="label">Office</div>
+        <div>{{ me.office }}<br>{% for l in me.address %}{{ l }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</div>
       </div>
-  <div id="bar">
-            <div class="link"><a href="index.html">home</a></div>
-            <div class="link"><a href="publications.html">publications</a></div>
-            <div class="link"><a href="cv.html">CV</a></div>
-            <div class="link"><a href="teachings.html">phd students</a></div>
-            <div class="link"><a href="talks.html">talks</a></div>
-            <div class="link"><a href="packages.html">software</a></div>
-            <div class="link"><a href="birds.html">鳥</a></div>
+      <div>
+        <div class="label">E-mail</div>
+        <div>{% for e in me.emails %}<span class="email">{{ e }}</span><br>{% endfor %}<small class="muted">{{ me.email_note | markdownify | remove: "<p>" | remove: "</p>" | strip }}</small></div>
       </div>
-        <div class="contentText">
-	<br />
-          <p> <img src="photos_moi/pierre-alquier-6.jpg" align="center" height="410"/>  <font color="white"> x x x </font>  <a href="https://www.essec.edu/en/">  <img src="logo-essec.jpg" align="center" height="275"/>  </a> </p>
-        </div>
-        <br />
-        <div class="contentText">
-          <p> </p>
-          <p> Pierre Alquier --  <a href="https://www.essec.edu/en/essec-asia-pacific-en/"> ESSEC ASIA-PACIFIC </a> -- Office 407 </p>
-          <p> 5 Nepal Park,</p>
-          <p> Singapore 139408</p>
-          <p> <span style="color:#0174DF"> alquier "at" essec.edu </span> </p>
-          <p> <span style="color:#0174DF"> pierre "dot" alquier "dot" stat "at" gmail.com </span></p>
-          <p> <span style="color:#DF0101"> (both e-mail addresses work, use *one* of them, don't send the same e-mail to both) </span></p>
-	  <p> <a href="https://ido-department.essec.edu/"> IDO department @ ESSEC (Information systems, Data analytics and Operations). </a> </p>
-	  <p> <a href="https://faculty.essec.edu/en/cv/en-alquier-pierre/"> My CV on ESSEC website </a> </p>
-        <br />
-	  <p> You can follow me on BlueSky: <a href="https://bsky.app/profile/pierrealquier.bsky.social">@PierreAlquier</a>, and on Mixi 2: <a href="https://mixi.social/@PierreAlquier">@PierreAlquier</a>. </p>
-	<br />
+    </div>
+    <p class="small-links">{{ me.department | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% for l in me.other_links %} · <a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>
+    <nav class="social" aria-label="Social networks">{% for l in site.data.links.social %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</nav>
+  </div>
+  {% if me.photo %}<img class="portrait" src="{{ me.photo }}" alt="Portrait of {{ me.name }}">{% endif %}
+</section>
 
-<p style="text-align:center">
- <script src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
-  <bsky-embed
-    username="pierrealquier.bsky.social"
-    mode="white"
-    limit="5"
-  >
-  </bsky-embed>
-<p/>
-	</div>
-</div>
-        <div id="footer"><a href="http://www.aszx.net">web development</a> by <a href="http://www.bryantsmith.com">bryant smith</a></div>
-</body>
-</html>
+<section class="overview" aria-label="Overview">
+
+  <div class="ov-row">
+    <div class="ov-head"><h2>Publications</h2><a href="publications.html">All publications →</a></div>
+    <div class="ov-body">
+      <ol class="list tight">
+      {% for p in papers limit: 3 %}
+        <li class="item"><div class="item-title">{% if p.url %}<a href="{{ p.url }}">{{ p.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}</a>{% else %}{{ p.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% endif %}</div><div class="item-meta">{% if p.venue %}<em>{{ p.venue | markdownify | remove: "<p>" | remove: "</p>" | strip }}</em>, {% endif %}{{ p.year }}{% if p.status %} <span class="tag">{{ p.status }}</span>{% endif %}</div></li>
+      {% endfor %}
+      </ol>
+      <p class="muted">Plus {{ preprints | size }} submitted preprints · <a href="publications.html#preprints">see them</a></p>
+    </div>
+  </div>
+
+  <div class="ov-row">
+    <div class="ov-head"><h2>Talks</h2><a href="talks.html">All talks →</a></div>
+    <div class="ov-body">
+      {% if site.data.talks.upcoming %}<div class="label">Forthcoming</div>
+      <ol class="list tight">{% for x in site.data.talks.upcoming %}<li class="item dated"><div class="date">{{ x.date }}</div><div class="item-body">{{ x.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div></li>{% endfor %}</ol>{% endif %}
+      <div class="label">Recent</div>
+      <ol class="list tight">{% for x in site.data.talks.past limit: 3 %}<li class="item dated"><div class="date">{{ x.date }}</div><div class="item-body">{{ x.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div></li>{% endfor %}</ol>
+    </div>
+  </div>
+
+  <div class="ov-row">
+    <div class="ov-head"><h2>PhD students</h2><a href="students.html">Current and former →</a></div>
+    <div class="ov-body">
+      <ol class="list tight">{% for x in site.data.students.current %}<li class="item"><div class="item-title">{% if x.url %}<a href="{{ x.url }}">{{ x.name }}</a>{% else %}{{ x.name }}{% endif %}</div>{% if x.details %}<div class="item-meta">{{ x.details | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div>{% endif %}</li>{% endfor %}</ol>
+    </div>
+  </div>
+
+  <div class="ov-row">
+    <div class="ov-head"><h2>Service</h2><a href="service.html">Full list →</a></div>
+    <div class="ov-body">
+      <ol class="list tight">{% for x in site.data.service.ongoing limit: 5 %}<li class="item dated"><div class="date">{{ x.date }}</div><div class="item-body">{{ x.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div></li>{% endfor %}</ol>
+    </div>
+  </div>
+
+  <div class="ov-row">
+    <div class="ov-head"><h2>Software</h2><a href="software.html">All packages →</a></div>
+    <div class="ov-body">
+      <div class="pills">{% for sec in site.data.software %}{% if sec.section contains "no longer" %}{% else %}{% for pk in sec.packages %}<a href="{{ pk.url }}">{{ pk.name }}</a>{% endfor %}{% endif %}{% endfor %}</div>
+    </div>
+  </div>
+
+  <div class="ov-row">
+    <div class="ov-head"><h2>Teaching</h2><a href="teaching.html">All years →</a></div>
+    <div class="ov-body">
+      {% for y in site.data.teaching limit: 1 %}<div class="label">{{ y.year }}</div>
+      <ol class="list tight">{% for c in y.courses %}<li class="item course"><div class="inst">{{ c.institution }}</div><div class="item-body">{{ c.course | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div></li>{% endfor %}</ol>{% endfor %}
+    </div>
+  </div>
+
+  <div class="ov-row">
+    <div class="ov-head"><h2>鷺 Birds</h2><a href="birds.html">{{ site.data.birds.title }} →</a></div>
+    <div class="ov-body">
+      <a class="strip" href="birds.html">{% for sp in site.data.birds.species limit: 4 %}<img src="{{ sp.photos[0].src }}" alt="{{ sp.name }}" loading="lazy">{% endfor %}</a>
+      <p class="muted">{{ site.data.birds.species | size }} species of herons photographed in Singapore.</p>
+    </div>
+  </div>
+
+  <div class="ov-row" id="career">
+    <div class="ov-head"><h2>Career</h2></div>
+    <div class="ov-body">
+      <ol class="list tight">{% for x in site.data.career %}{% include dated.html %}{% endfor %}</ol>
+    </div>
+  </div>
+
+  <div class="ov-row" id="training">
+    <div class="ov-head"><h2>Training</h2></div>
+    <div class="ov-body">
+      <ol class="list tight">{% for x in site.data.training %}{% include dated.html %}{% endfor %}</ol>
+    </div>
+  </div>
+
+  {% if me.bluesky_handle %}
+  <div class="ov-row">
+    <div class="ov-head"><h2>On Bluesky</h2><a href="https://bsky.app/profile/{{ me.bluesky_handle }}">@{{ me.bluesky_handle }} →</a></div>
+    <div class="ov-body">
+      <div class="bsky">
+        <script src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+        <bsky-embed username="{{ me.bluesky_handle }}" mode="" limit="{{ me.bluesky_posts }}" link-target="_blank"></bsky-embed>
+      </div>
+      <script>
+        (function () {
+          var m = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+          if (m && m.matches) { document.querySelectorAll('bsky-embed').forEach(function (e) { e.setAttribute('mode', 'dark'); }); }
+        })();
+      </script>
+    </div>
+  </div>
+  {% endif %}
+</section>

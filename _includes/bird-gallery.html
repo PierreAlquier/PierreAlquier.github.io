@@ -1,0 +1,21 @@
+<h1 class="page-title">鷺 {{ b.title }}</h1>
+<p class="lead">{{ b.intro | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+
+<nav class="chips" aria-label="Species">
+  {% for sp in b.species %}<a href="#sp-{{ forloop.index }}">{{ sp.name }}</a>{% endfor %}
+</nav>
+
+{% for sp in b.species %}
+<section class="block species" id="sp-{{ forloop.index }}">
+  <h2>{{ sp.name }} <span class="ja" lang="ja">{{ sp.name_ja }}</span></h2>
+  {% if sp.note %}<p class="muted">{{ sp.note | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>{% endif %}
+  <div class="gallery">
+    {% for ph in sp.photos %}
+    <figure>
+      <a href="{{ ph.src }}"><img src="{{ ph.src }}" alt="{{ sp.name }}{% if ph.caption %}, {{ ph.caption }}{% endif %}" loading="lazy"></a>
+      {% if ph.caption %}<figcaption>{{ ph.caption }}</figcaption>{% endif %}
+    </figure>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}

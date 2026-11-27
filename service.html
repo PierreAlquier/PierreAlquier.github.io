@@ -1,0 +1,17 @@
+---
+layout: default
+title: Service
+nav: service
+---
+{% assign s = site.data.service %}
+<h1 class="page-title">Service to the community</h1>
+
+<section class="block">
+  <h2>Ongoing</h2>
+  <ol class="list">{% for x in s.ongoing %}{% include dated.html %}{% endfor %}</ol>
+</section>
+
+<section class="block">
+  <h2>Past</h2>
+  <ol class="list">{% for x in s.past %}{% include dated.html %}{% endfor %}</ol>
+</section>

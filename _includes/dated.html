@@ -1,0 +1,4 @@
+<li class="item dated">
+  <div class="date">{{ x.date }}</div>
+  <div class="item-body">{{ x.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div>
+</li>

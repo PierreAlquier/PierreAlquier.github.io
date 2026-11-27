@@ -1,0 +1,7 @@
+<li class="item person">
+  <div class="item-body">
+    <div class="item-title">{% if x.url %}<a href="{{ x.url }}">{{ x.name }}</a>{% else %}{{ x.name }}{% endif %}</div>
+    {% if x.details %}<div class="item-meta">{{ x.details | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div>{% endif %}
+  </div>
+  {% if x.photo %}<a class="person-photo" href="{{ x.photo }}"><img src="{{ x.photo }}" alt="{{ x.name }}" loading="lazy"></a>{% endif %}
+</li>

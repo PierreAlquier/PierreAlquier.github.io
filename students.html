@@ -1,0 +1,22 @@
+---
+layout: default
+title: PhD students
+nav: students
+---
+{% assign s = site.data.students %}
+<h1 class="page-title">PhD students</h1>
+
+<section class="block">
+  <h2>Current PhD students</h2>
+  <ol class="list">{% for x in s.current %}{% include student.html %}{% endfor %}</ol>
+</section>
+
+<section class="block">
+  <h2>Former PhD students</h2>
+  <ol class="list">{% for x in s.former %}{% include student.html %}{% endfor %}</ol>
+</section>
+
+<section class="block">
+  <h2>MSc theses supervised</h2>
+  <ol class="list">{% for x in s.msc %}{% include student.html %}{% endfor %}</ol>
+</section>

@@ -1,0 +1,29 @@
+---
+layout: default
+title: Software
+nav: software
+---
+<h1 class="page-title">Software</h1>
+
+{% for sec in site.data.software %}
+<section class="block">
+  <h2>{{ sec.section }}</h2>
+  {% if sec.section contains "no longer maintained" %}
+  <ol class="list compact">
+    {% for pk in sec.packages %}
+    <li class="item"><div class="item-body"><a href="{{ pk.url }}"><strong>{{ pk.name }}</strong></a> · {{ pk.description | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% if pk.doc %} · <a href="{{ pk.doc }}">doc</a>{% endif %}</div></li>
+    {% endfor %}
+  </ol>
+  {% else %}
+  <div class="cards">
+    {% for pk in sec.packages %}
+    <article class="card">
+      <h3><a href="{{ pk.url }}">{{ pk.name }}</a></h3>
+      <p>{{ pk.description | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+      {% if pk.doc %}<a class="more" href="{{ pk.doc }}">Documentation →</a>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>
+{% endfor %}

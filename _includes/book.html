@@ -1,0 +1,8 @@
+<article class="book">
+  {% if p.cover %}<a class="book-cover" href="{% if p.url %}{{ p.url }}{% else %}{{ p.cover }}{% endif %}"><img src="{{ p.cover }}" alt="Cover of {{ p.title }}" loading="lazy"></a>{% endif %}
+  <div class="book-body">
+    <div class="item-title">{% if p.url %}<a href="{{ p.url }}">{{ p.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}</a>{% else %}{{ p.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% endif %}</div>
+    <div class="item-sub">{{ p.authors | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% if p.year %} · {{ p.year }}{% endif %}</div>
+    {% if p.details %}<div class="item-meta">{{ p.details | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div>{% endif %}
+  </div>
+</article>

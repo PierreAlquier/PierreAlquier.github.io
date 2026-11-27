@@ -1,0 +1,29 @@
+# PROFILE — the top of the home page.
+
+name: Pierre Alquier
+position: Professor of Statistics
+affiliation: "[ESSEC Business School](https://www.essec.edu/en/), [Asia-Pacific campus](https://www.essec.edu/en/essec-asia-pacific-en/)"
+department: "[IDO department](https://ido-department.essec.edu/) (Information Systems, Data Analytics and Operations)"
+
+# One or two sentences under your name. Suggestion based on your publications: edit or delete it.
+tagline: "I work on statistical learning theory: PAC-Bayes bounds, learning with dependent data, robust estimation with the Maximum Mean Discrepancy, and approximate Bayesian inference."
+
+photo: photos_moi/pierre-alquier-6.jpg
+
+office: Office 407
+address:
+  - 5 Nepal Park
+  - Singapore 139408
+
+emails:
+  - alquier "at" essec.edu
+  - pierre "dot" alquier "dot" stat "at" gmail.com
+email_note: "Both e-mail addresses work: use *one* of them, don't send the same e-mail to both."
+
+other_links:
+  - label: My CV on the ESSEC website
+    url: https://faculty.essec.edu/en/cv/en-alquier-pierre/
+
+# Bluesky feed shown at the bottom of the home page (leave empty to hide it).
+bluesky_handle: pierrealquier.bsky.social
+bluesky_posts: 5

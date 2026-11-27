@@ -1,0 +1,45 @@
+# SOFTWARE — sections in display order, each with its packages.
+# Each package: name, url (main link), doc (optional), description (Markdown).
+# A section whose title contains "no longer maintained" is shown in a compact style.
+
+- section: R Packages
+  packages:
+  - name: regMMD
+    url: https://cran.r-project.org/web/packages/regMMD/
+    doc: http://pierrealquier.github.io/papers/regMMD.pdf
+    description: Robust Regression and Estimation Through MMD Minimization (written with Mathieu Gerber)
+  - name: MMDCopula
+    url: https://cran.r-project.org/web/packages/MMDCopula/
+    doc: http://pierrealquier.github.io/papers/MMDCopula.pdf
+    description: Estimation of Copula via MMD (written with Alexis Derumigny, Badr-Eddine Chérief-Abdellatif and Jean-David Fermanian)
+- section: Python
+  packages:
+  - name: reg-mmd-scikit
+    url: https://github.com/HiddeFok/reg-mmd-scikit
+    doc: https://hiddefok.github.io/reg-mmd-scikit/
+    description: A version of regMMD for Python, in the Scikit-learn style, written by [Hidde Fokkema](https://hidde-fokkema.com/)
+  - name: VB for mixtures
+    url: notebooks/Notebook_VB.ipynb
+    description: A notebook written by Badr-Eddine Chérief-Abdellatif for our paper "Consistency of Variational Bayes Inference for Estimation and Model Selection in Mixtures"
+- section: Older R Packages (no longer maintained)
+  packages:
+  - name: ISBF
+    url: http://cran.r-project.org/web/packages/ISBF/
+    doc: http://pierrealquier.github.io/papers/ISBF.pdf
+    description: Iterative Selection of Blocks of Features for regression estimation with L2 loss
+  - name: pacbpred
+    url: http://cran.r-project.org/web/packages/pacbpred/
+    doc: http://pierrealquier.github.io/papers/pacbpred.pdf
+    description: PAC-Bayesian Estimation and Prediction in Sparse Additive Models (written by Benjamin Guedj)
+  - name: PACVB
+    url: https://cran.r-project.org/web/packages/PACVB/
+    doc: http://pierrealquier.github.io/papers/PACVB.pdf
+    description: VB Approximations of Gibbs Classifiers with Hinge Losses for Classification and Ranking (written by James Ridgway)
+  - name: nmfem
+    url: https://cran.r-project.org/web/packages/nmfem/
+    doc: http://pierrealquier.github.io/papers/nmfem.pdf
+    description: NMF-EM algorithm for reduction of dimension in mixture models (written by Léna Carel)
+  - name: TrendTM
+    url: https://cran.r-project.org/web/packages/TrendTM/
+    doc: https://cran.r-project.org/web/packages/TrendTM/TrendTM.pdf
+    description: Trend of High-Dimensional Time Series Matrix Estimation (written by Emilie Lebarbier, Nicolas Marie and Amélie Rosier, I am not involved at all in the development of this package but it implements the estimator studied in our joint paper with Nicolas Marie, EJS 2019)

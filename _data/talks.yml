@@ -1,0 +1,485 @@
+# TALKS
+# upcoming: forthcoming talks; past: past talks (newest first).
+# Each talk: date (free text, e.g. 2026/11/23) and text (Markdown, links as [label](url)).
+# Optional photos: a list of {src: photos_moi/xxx.jpg, link: optional URL when the photo is clickable}.
+# To move a talk from upcoming to past, just cut and paste the entry.
+
+note: All the slides that are not directly available through links are available upon request.
+upcoming:
+- date: 2027/04/2X (Date TBC)
+  text: Talk at "Frontiers in Nonparametric and High-Dimensional Statistics (In Honor of Alexander Tsybakov's 70th Birthday)", ENSAE, Paris.
+- date: 2027/03/XX (Date TBC)
+  text: Lecture at the [Machine Learning Summer School 2027](https://oist.github.io/mlss2027okinawa/), OIST, Okinawa.
+past:
+- date: 2026/11/23
+  text: 'Talk: ["Empirical concentration for time series"](slides/singapore_ntu2026.pdf), [Workshop on Optimisation and Uncertainty in Foundation Models](https://sites.google.com/view/aivp-foundation-models/workshop), NTU, Singapore.'
+- date: 2026/08/08
+  text: 'Talk: "Empirical PAC-Bayes bounds for Markov chains", [EcoSta 2026](https://www.cmstatistics.org/EcoSta2026/), Ryukoku University, Kyoto, Japan.'
+- date: 2026/07/28
+  text: 'Talk: "A new Mutual Information bound for statistical inference", at the workshop "Bayesian Methods", Oberwolfach, Germany.'
+- date: 2026/07/13, 14 and 17
+  text: 'Short course: ["An Introduction to PAC-Bayesian Theory and Its Modern Applications"](slides/erevan2026.pdf), [Summer School Statistics and Learning Theory](https://armxss.com/slt2026/) (organized by Erevan State University), Aghveran, Armenia.'
+  photos:
+  - src: photos_moi/armenia2026.jpg
+- date: 2026/07/06
+  text: 'Talk: "Generalization bounds in machine learning, information theory and predictions", workshop [Information Theory in Modern Science](https://www.oist.jp/conference/information-theory-modern-science), OIST, Okinawa.'
+- date: 2026/07/03
+  text: 'Talk: "A new Mutual Information bound for statistical inference", [ISBA 2026 World Meeting](https://isba2026.github.io/), Nagoya.'
+- date: 2026/06/30
+  text: 'Talk: "Project SafeTime: Safe Decisions via Adaptive Learning of Time Series", [SinFra 2026](https://ipal.cnrs.fr/sinfra-2026-29-30-june_1-july/), Singapore (ONLINE).'
+- date: 2026/06/14
+  text: 'Talk: "Bayesian meta-learning", [IMS-Asia Pacific Rim Meeting](https://ims-aprm2026.sta.cuhk.edu.hk/), Hong-Kong.'
+- date: 2026/06/11
+  text: 'Talk: Présentation du projet SafeTime, Journée des projets de recherche 2026 CY Initiative - CY Générations, Cergy (online).'
+- date: 2026/06/09
+  text: 'Talk: ["Empirical PAC-Bayes bounds for Markov chains"](slides/mcqmc2026.pdf) (plenary talk), [MCQMC 2026](https://maths.ed.ac.uk/events/mcqmc-2026), University of Edinburgh.'
+  photos:
+  - src: photos_moi/MCQMCmoi.jpg
+  - src: photos_moi/MCQMCmoi2.jpg
+- date: 2026/05/05
+  text: 'Talk: "Empirical PAC-Bayes bounds for Markov chains", [OPTIMAL workshop](https://optimal-workshop26.github.io/), AISTATS 2026, Tangier.'
+- date: 2025/11/13
+  text: 'Talk: "Introduction to sports analytics" at [Science & Society](https://research-and-society.essec.edu/), ESSEC Business School, Cergy. Link to video:'
+  photos:
+  - src: photos_moi/moi_essec.jpg
+    link: https://essec.mediaspace.eu.kaltura.com/media/10+SCIENCES++SPORTS+Pierre+ALQUIER/0_mio8a9do
+- date: 2025/10/30
+  text: 'Talk: "An open question on online variational inference", [Rethinking the Role of Bayesianism in the Age of Modern AI](https://bayesian.mbzuai.ac.ae/), MBZUAI, Abu Dhabi.'
+- date: 2025/09/23
+  text: 'Talk: ["PAC-Bayes: an introduction"](slides/postbayes2025.pdf), at the [Post-Bayes seminar series](https://postbayes.github.io/seminar/), UCL (ONLINE). Link to video:'
+  photos:
+  - src: slides/chapter3.jpg
+    link: https://www.youtube.com/watch?v=hT-dD56TN9Y
+- date: 2025/06/17
+  text: 'Talk: "A new Mutual Information bound for statistical inference", workshop ["Bayesian Computation and Inference with Misspecified Models"](https://postbayes.github.io/BayesMisspecificationSatellite/), [BayesComp](https://bayescomp2025.sg/), Singapore.'
+- date: 2025/06/10
+  text: 'Talk: "A new Mutual Information bound for statistical inference", [Journée ANR BACKUP](https://sites.google.com/view/anrbackup/events), Jussieu, Paris (ONLINE).'
+- date: 2025/04/10
+  text: 'Talk: "A new Mutual Information bound for statistical inference", [Recent Advances in Statistical Robustness](https://sites.google.com/essec.edu/workshop-statisticalrobustness/welcome), ESSEC, Rabat.'
+- date: 2025/03/04
+  text: 'Talk: ["A new Mutual Information bound for statistical inference"](slides/okinawa2025.pdf), [OIST ML Workshop](https://omlw2025.mlds.jp/), OIST, Okinawa.'
+- date: 2025/01/27-28
+  text: 'Two talks: ["PAC-Bayes"](slides/heidelberg2025.pdf), [Heidelberg-Paris workshop on mathematical statistics](https://nps.math.uni-heidelberg.de/hd_paris_workshop25/index.html), International Academic Forum Heidelberg.'
+- date: 2024/12/17
+  text: 'Talk: "Optimistic Estimation of Convergence in Markov Chains with the Average Mixing Time", MMS, CIRM, Marseille.'
+- date: 2024/12/02
+  text: 'Talk: "Optimistic Estimation of Convergence in Markov Chains with the Average Mixing Time", [DeLTA lab seminar](https://sites.google.com/diku.edu/delta/), Copenhagen.'
+- date: 2024/11/14
+  text: 'Mini-talk: "Laplace vs. variational approximations", [Rethinking the Role of Bayesianism in the Age of Modern AI](https://www.dagstuhl.de/24461), Dagstuhl.'
+- date: 2024/10/10
+  text: 'Talk: "PAC-Bayes bounds", stochastics seminar of the Department of Mathematics, NUS, Singapore.'
+- date: 2024/08/09
+  text: 'Talk: "PAC-Bayesian Bounds, with applications to Deep Learning and Offline Contextual Bandits", [International Conference on Mathematical Theory of Deep Learning](https://dl2024.casconf.cn/), Chinese Academy of Science, Beijing.'
+- date: 2024/07/30
+  text: 'Talk: "PAC-Bayesian Bounds for Offline Contextual Bandits", [BNP Networking Workshop](https://bnp-networking2024.github.io/), IMS-NUS, Singapore.'
+- date: 2024/07/15
+  text: 'Talk: ["Optimistic Estimation of Convergence in Markov Chains with the Average Mixing Time"](slides/scicade2024.pdf), [SciCADE](https://www.scicade2024.org/accepted-minisymposia), NUS, Singapore.'
+- date: 2024/06/24
+  text: 'Talk: "Learning with PAC-Bayes bounds" at the RIKEN AIP - A*STAR CFAR workshop, A*STAR, Singapore.'
+- date: 2024/06/11
+  text: 'Talk: "Introduction to PAC-Bayes bounds" at the [CNRS - ESSEC APAC](https://pierrealquier.github.io/slides/cnrs_essec_program.pdf) Workshop, ESSEC Asia-Pacific, Singapore.'
+- date: 2024/05/28
+  text: 'Talk: "PAC-Bayes Bounds & Offline Contextual Bandits", workshop: Machine Learning Theory & Methodology, NTU, Singapore.'
+- date: 2024/03/05-06
+  text: 'Two lectures on ["PAC-Bayes bounds"](slides/okinawa2024.pdf) at the [Machine Learning Summer School 2024](https://groups.oist.jp/mlss), OIST, Okinawa. Link to video:'
+  photos:
+  - src: photos_moi/okinawa2024.jpg
+    link: https://www.youtube.com/watch?v=NMc1J1YHvcM
+- date: ''
+  text: 'During the summer school, I was interviewed by [Charles Riou](https://jp.linkedin.com/in/charles-riou-1a4438109) for his YouTube channel [ML New Papers](https://www.youtube.com/@MLNewPapers-xo5vm), we chatted about research in ML and various topics. Link to video:'
+  photos:
+  - src: photos_moi/interview_charles.jpg
+    link: https://www.youtube.com/watch?v=nLGBTMfTvr8
+- date: 2024/02/08
+  text: 'Talk: "Understanding catastrophic forgetting in machine learning", [ESSEC research day](https://sites.google.com/essec.edu/essec-research-day/home), Paris-Singapore (ONLINE).'
+- date: 2024/01/12
+  text: 'Talk: "Robust estimation and regression with MMD", [The Mathematics of Data](https://ims.nus.edu.sg/events/the-mathematics-of-data/), IMS-NUS, Singapore.'
+- date: 2024/01/07
+  text: 'Talk: "Bayesian meta-learning", [IMS Asia Pacific Rim meeting](https://ims-aprm2024.com/), Melbourne.'
+- date: 2023/12/14
+  text: 'Talk: "Bayesian meta-learning", the [statistical science departmental seminar](https://www.ucl.ac.uk/statistics/seminar) at UCL, London. Video:'
+  photos:
+  - src: photos_moi/moiUCL.jpg
+    link: https://www.youtube.com/watch?v=vJU-tOr6iMw
+- date: 2023/12/08
+  text: 'Talk: "Robust estimation and regression with MMD", [statistics seminar of LPSM, Jussieu](https://www.lpsm.paris/seminaires/statp6p7/index), Paris.'
+- date: 2023/12/07
+  text: 'Talk: "Robust estimation and regression with MMD", the [statistics seminar at Orsay](https://www.imo.universite-paris-saclay.fr/fr/events/7152), Paris-Saclay.'
+- date: 2023/11/30
+  text: 'Talk: ["Robust estimation with MMD"](slides/dublin2023.pdf), [statistics seminar](https://maths.ucd.ie/seminars/1855) at UCD Dublin.'
+- date: 2023/09/28
+  text: 'Talk: "Robustness of Minimum Distance Estimators", AGM/IDS day, ESSEC - Cergy University (ONLINE).'
+- date: 2023/08/03
+  text: 'Talk: "Bayesian meta-learning", [EcoSta 2023](http://www.cmstatistics.org/EcoSta2023/index.php), Waseda University, Tokyo.'
+- date: 2023/06/26
+  text: 'Talk: "Bayesian meta-learning", workshop on [Bayes Duality](https://bayesduality.github.io/workshop/), Tokyo.'
+- date: 2023/04/28
+  text: 'Talk: ["Bayesian meta-learning"](slides/rabat2023.pdf), [12th Workshop on High Dimensional Data Analysis](https://sites.google.com/site/jefconference/jef2023-hdda-xii), ESSEC & Univ. Mohamed V, Rabat.'
+- date: 2023/04/12
+  text: 'Talk: "Concentration of variational approximations", [NUS seminar of statistics](https://www.stat.nus.edu.sg/events/academic/seminar/), Singapore.'
+- date: 2023/03/31
+  text: 'Talk: "Deviation inequalities for Markov chains", [Deepmind/ELLIS CSML Seminar Series](https://ucl-ellis.github.io/dm_csml_seminar_home/), UCL, London (ONLINE).'
+- date: 2022/11/17
+  text: 'Talk: ["Minimum MMD estimation"](slides/luxembourg2022.pdf), @ [Probability and Statistics seminar](https://probstat-seminar.uni.lu/), Department of Mathematics, University of Luxembourg.'
+- date: 2022/11/14
+  text: 'Talk: ["Concentration and robustness of discrepancy-based ABC"](slides/ihp2022.pdf), [séminaire parisien de statistique à l''IHP](https://sites.google.com/site/semstats/home), Paris.'
+- date: 2022/11/10
+  text: 'Talk: ["The nice properties of MMD for statistical estimation"](slides/toulouse2022.pdf), @ [MAD-stat seminar](https://www.tse-fr.eu/groups/mathematics-decision-making-and-statistics?tabs=3), Toulouse School of Economics.'
+- date: 2022/09/08
+  text: 'Talk: "Concentration and robustness of discrepancy-based ABC" @ [O-BAYES22](https://obayes.soe.ucsc.edu/), Santa Cruz CA.'
+  photos:
+  - src: slides/santacruz2022.jpg
+  - src: slides/santacruzbird1.jpg
+  - src: slides/santacruzbird2.jpg
+- date: 2022/06/23
+  text: 'Talk: "A theoretical analysis of catastrophic forgetting" at [Conference on Networks Reconstruction](https://doukhan.u-cergy.fr/conference2022.html), Paris.'
+- date: 2022/06/14
+  text: 'Talk: ["A theoretical analysis of catastrophic forgetting"](slides/porquerolles2022.pdf)., [New Trends in Statistical Learning II](https://sites.google.com/view/workshop-statsml/workshop_statsml_ii), Porquerolles, France.'
+- date: 2022/05/31
+  text: 'Talk: ["Robust estimation via min. distance estimation"](slides/vienna2022.pdf). [Statistical estimation and deep learning in UQ for PDEs](https://www.esi.ac.at/events/e22/), Vienna (ONLINE).'
+- date: 2022/04/28
+  text: 'Talk: ["Concentration and robustness of discrepancy-based ABC"](slides/abc2022.pdf), [One World ABC seminar](https://warwick.ac.uk/fac/sci/statistics/news/upcoming-seminars/abcworldseminar), Warwick (ONLINE). Link to video:'
+  photos:
+  - src: photos_moi/abc_me.jpg
+    link: https://www.youtube.com/watch?v=IG4HqzV3MI8
+- date: 2022/04/21
+  text: 'Talk: ["PAC-Bayes and contraction of the posterior"](slides/bayes_club2022.pdf), [Bayes club](https://www.math.vu.nl/thebayesclub/) (ONLINE).'
+- date: 2022/04/19
+  text: 'Talk: "PAC-Bayes and contraction of the posterior", [DELTA](https://www.homepages.ucl.ac.uk/~ucabriv/delta.html) seminar, UCL (ONLINE).'
+- date: 2022/03/01
+  text: 'Talk: ["Deviation inequalities for Markov chains"](slides/AIP2022.pdf), high-dimensional statistical modeling team seminar, RIKEN AIP. (ONLINE). Video:'
+  photos:
+  - src: photos_moi/high-dim-talk.jpg
+    link: https://www.youtube.com/watch?v=uzgR1YrNezc
+- date: 2022/02/02
+  text: 'Talk: ["What to expect from PAC-Bayes bounds"](slides/AABI2022.pdf) at [AABI 2022](http://approximateinference.org/) (ONLINE). Link to video:'
+  photos:
+  - src: photos_moi/AABI2022.jpg
+    link: https://www.youtube.com/watch?v=8MWOhYg89fY&t=144s
+- date: 2022/01/20
+  text: 'Talk: ["Matrix factorization for time series analysis"](slides/imperial2022.pdf), [CDT StatML at Imperial and Oxford](https://statml.io/) (ONLINE).'
+- date: 2021/09/30
+  text: 'Talk: "MMD-based estimation", AmLab seminar, Amsterdam (ONLINE).'
+- date: 2021/09/16
+  text: 'Talk: ["Time series completion"](slides/ecodep2021.pdf) at the [EcoDep 2021 conference](https://doukhan.u-cergy.fr/conference2021.html), Université de Cergy-Pontoise (ONLINE).'
+- date: 2021/07/21-22
+  text: '[Poster](slides/icml2021.pdf) and short video:"Non-exponentially weighted aggregation" at ICML 2021 (ONLINE).'
+- date: 2021/06/30
+  text: 'Talk: "MMD-Bayes", at [ISBA world meeting](https://events.stat.uconn.edu/ISBA2021/), invited session on "Contemporary Challenges in Bayesian Robustness" (ONLINE).'
+- date: 2021/06/03
+  text: 'Poster: "MMD-based estimation", [MHC2021](https://www.imo.universite-paris-saclay.fr/~mhc2021/), Orsay, Université Paris Saclay (ONLINE).'
+- date: 2021/05/27
+  text: 'Talk: "MMD-based estimation", Modal''X seminar, Université Paris Nanterre (ONLINE).'
+- date: 2021/05/19
+  text: 'Talk: ["Regret bounds for generalized Bayes updates"](slides/london2021.pdf), [AI center](https://www.ucl.ac.uk/ai-centre/) seminar series, University College London (ONLINE).'
+  photos:
+  - src: slides/piclondon2021.jpg
+    link: https://www.youtube.com/watch?v=AwZ7Z9NfsOQ
+- date: 2021/04/22
+  text: 'Talk: "MMD-based estimation", [Bocconi Institute for Data Science and Analytics](http://www.bidsa.unibocconi.eu/) seminar series, Milan (ONLINE).'
+- date: 2021/03/10
+  text: 'Talk: ["Meta-strategy for Learning Tuning Parameters with Guarantees"](slides/aip2021.pdf), RIKEN AIP open seminar, Tokyo (ONLINE). Video:'
+  photos:
+  - src: slides/aip2021.jpg
+    link: https://www.youtube.com/watch?v=XvTFW0MqtZE#t=75m32s
+- date: 2021/03/03
+  text: 'Talk: "MMD-based estimation" at the [workshop on functional inference and machine intelligence](https://ismseminar.github.io/fimi2021/), ISM, Tokyo (ONLINE).'
+- date: 2021/02/01
+  text: 'Talk: ["MMD-based estimation"](slides/ensae2021.pdf) at the statistics seminar of CREST, ENSAE, Paris (ONLINE).'
+- date: 2020/11/04
+  text: 'Talk: "MMD-based estimation", DataSig seminar series at the Alan Turing Institute, London (ONLINE). Video:'
+  photos:
+  - src: photos_moi/moiDatasig.jpg
+    link: https://www.youtube.com/watch?v=zZqPKm-QtzI
+- date: 2020/10/29
+  text: 'Talk: "Online variational inference", ["Mathematics of Online Decision Making"](https://simons.berkeley.edu/workshops/rl-2020-2), Simons Institute, UC Berkeley (ONLINE). Video:'
+  photos:
+  - src: photos_moi/moiBerkeley.jpg
+    link: https://www.youtube.com/watch?v=OeuWyYc-exo
+- date: 2020/09/16
+  text: 'Talk: "MMD-based estimation", ["New Results on Time Series and their Statistical Applications"](https://conferences.cirm-math.fr/2233.html), CIRM, Marseille (ONLINE).'
+- date: 2020/09/10
+  text: 'Talk: "MMD-based estimation", ["Ecology and Stochastic Modeling (EcoDep)"](https://doukhan.u-cergy.fr/EcoDep.html) opening conference (ONLINE).'
+- date: 2020/09/09
+  text: 'Talk: "MMD-based estimation", statistics seminar series at the Alan Turing Institute, London (ONLINE).'
+- date: 2020/08/19
+  text: 'Lecture: [Introduction to Online Learning](slides/skoltech_2020.pdf), Summer School of Machine Learning at Skoltech, Moscow (ONLINE). Video:'
+  photos:
+  - src: photos_moi/smiles.jpg
+    link: https://www.youtube.com/watch?v=xp_UCGVMPIM
+- date: 2020/08/18
+  text: Talk for PhD students at the [CDT in Modern Statistics and Statistical Machine Learning at Imperial and Oxford](https://statml.io/) (ONLINE). [Slides](slides/imperial_online2020.pdf).
+- date: 2020/01/10
+  text: 'Talk: ["MMD-Bayes: Robust Bayesian Estimation via Maximum Mean Discrepancy"](slides/aip2020.pdf), PI seminar, RIKEN AIP, Tokyo.'
+- date: 2019/12/20
+  text: 'Talk: "Generalization Bounds for Online Variational Inference", Meeting in Mathematical Statistics, CIRM, Marseille.'
+- date: 2019/12/06
+  text: 'Talk: "Generalization Bounds for Online Variational Inference", University of Oxford.'
+- date: 2019/12/05
+  text: 'Talk: ["Generalization Bounds for Online variational Inference"](slides/alquier-VI-3.pdf), Heilbronn Institute, Univ. of Bristol.'
+- date: 2019/11/27
+  text: Two "Lectures on Variational Inference", Heilbronn Institute for Mathematical Research, Univ. of Bristol. [Lecture 1](slides/alquier-VI-1.pdf) and [Lecture 2](slides/alquier-VI-2.pdf).
+- date: 2019/11/18
+  text: Talk and poster:"Generalization Bounds for Online variational Inference", ACML 2019, Nagoya. [Slides](slides/nagoya2019.pdf) and [poster](slides/nagoya2019_poster.pdf).
+  photos:
+  - src: photos_moi/nagoya19.jpg
+  - src: photos_moi/award.jpg
+    link: papers/award.pdf
+- date: 2019/11/17
+  text: 'Talk: "MMD-based estimation", ACML 2019 [workshop on AIP research](http://www.acml-conf.org/2019/workshops/riken-aip/), Nagoya.'
+- date: 2019/09/12
+  text: 'Talk: "MMD-based estimation", reading group on approximate Bayesian inference, RIKEN AIP, Tokyo.'
+- date: 2019/06/27
+  text: 'Talk: ["Generalization bounds for Variational Inference"](slides/taichung2019.pdf), EcoSta, NCHU Taichung, Taïwan.'
+- date: 2019/05/15
+  text: 'Talk: ["Generalization bounds for Online Variational Inference"](slides/cachan2019.pdf), [Eléments de mathématiques pour l''IA"](http://mlmda.cmla.fr/elements-de-mathematique-pour-lia/), ENS Paris Saclay.'
+- date: 2019/05/10
+  text: 'Talk: ["Approximate Bayesian Inference"](slides/padova2019.pdf), Università degli Studi di Padova.'
+- date: 2019/05/06
+  text: 'Talk: ["Generalization bounds for Variational Inference"](slides/inra2019.pdf), séminaire de l''équipe MAIAGE, INRA Jouy-en-Josas.'
+- date: 2019/03/29
+  text: 'Talk: "Approximate Bayesian Inference", [workshop on computational geometry](https://perso.esiee.fr/~mustafan/ANR-SAGA/cgs/), ESIEE, Paris.'
+- date: 2019/02/27
+  text: 'Talk: "Approximate Bayesian Inference", RIKEN AIP, Tokyo.'
+- date: 2019/02/27
+  text: 'Talk: "Concentration of variational approximations", Computation and Econometrics Workshop, GRIPS, Tokyo.'
+- date: 2019/02/18
+  text: 'Talk: "Approximate Bayesian Inference", groupe de travail AOC, IMT, Toulouse.'
+- date: 2019/02/14
+  text: 'Talk: "Introduction to sequential predictions", Machine Learning Meet-up, Pau. Vidéo:'
+  photos:
+  - src: photos_moi/lumenai.jpg
+    link: https://t.co/T2TqzlrTVc
+- date: 2019/01/16
+  text: 'Talk: ["Exponential inequalities for nonstationary Markov Chains"](slides/valparaiso2019.pdf), CIMFAV, Universidad de Valparaiso.'
+- date: 2019/01/09
+  text: 'Talk: "Introduction to sequential predictions", CREST working group on Stat/ML/Econometrics, ENSAE ParisTech.'
+- date: 2018/12/12
+  text: 'Talk: "Exponential inequalities for nonstationary Markov Chains", 1rst nonstationary day, Telecom ParisTech.'
+- date: 2018/11/27
+  text: 'Talk: ["Prédiction avec avis d''experts"](slides/mercredicirm2018.pdf), Les mercredis mathématiques du CIRM (pour lycéens), Marseille. Click on the image below to see a video of this talk:'
+  photos:
+  - src: photos_moi/cirm2018_4.jpg
+    link: https://www.youtube.com/watch?v=Np079lQBBlI
+  - src: photos_moi/cirm2018_3.jpg
+    link: https://www.youtube.com/watch?v=Np079lQBBlI
+- date: 2018/11/27
+  text: 'Talk: ["Informed subsampling MCMC"](slides/cirm2018.pdf), Bayesian statistics in the Big Data era, CIRM, Marseille.'
+- date: 2018/11/16
+  text: 'Talk: ["Concentration of variational approximations"](slides/cambridge2018.pdf), statistics seminar, Cambridge University.'
+- date: 2018/11/14
+  text: 'Talk: ["Introduction to sequential predictions"](slides/london_lbs2018.pdf), London Business School (LBS).'
+- date: 2018/10/29
+  text: 'Talk: "Concentration of variational approximations", machine learning seminar, IIT, Genoa.'
+- date: 2018/10/19
+  text: 'Talk: "Concentration of variational approximations", workshop on probabilistic methods for comp. stats, Telecom Paris Sud.'
+- date: 2018/09/06
+  text: 'Talk: "Concentration of variational approximations", Oslo Centre for Biostatistics and Epidemiology, University of Oslo.'
+- date: 2018/08/24
+  text: 'Talk: "Regret Bounds for Lifelong Learning", INRIA / BNP Paribas Summer School on Artificial Intelligence.'
+- date: 2018/07/12
+  text: 'Talk: "Introduction to machine learning with application to matrix completion", ESME, Paris.'
+- date: 2018/07/06
+  text: 'Talk: "Recent advances on the Consistency of Variational Bayes procedures", [IMS meeting](http://ims-vilnius2018.com/), Vilnius.'
+- date: 2018/06/25
+  text: 'Talk: "Variational Approximations in Machine Learning", Scientific computing seminar, CERMICS (ENPC), Paris.'
+- date: 2018/06/06
+  text: 'Talk: "Regret Bounds for Lifelong Learning", French-German Summer School on Transfer Learning, ENS Paris-Saclay.'
+- date: 2018/05/24
+  text: 'Talk: "Regret Bounds for Lifelong Learning", workshop on Multi-Armed Bandits, Erasmus University, Rotterdam.'
+  photos:
+  - src: photos_moi/rotterdam18-6.jpg
+  - src: photos_moi/rotterdam18-2.jpg
+  - src: photos_moi/rotterdam18-5.jpg
+  - src: photos_moi/rotterdam18-4.jpg
+  - src: photos_moi/rotterdam18-3.jpg
+  - src: photos_moi/rotterdam18-1.jpg
+- date: 2018/04/24
+  text: 'Talk: ["Regret Bounds for Lifelong Learning"](slides/cachan2018.pdf), workshop on machine learning, CMLA, ENS Paris-Saclay.'
+- date: 2017/12/22
+  text: 'Talk: "Concentration of variational approximations", MMS (Meeting in Mathematical Statistics), CIRM, Luminy.'
+- date: 2017/12/19
+  text: 'Talk: ["Concentration of variational approx.",](slides/london2017.pdf) [workshop "High Dimensional Function Approximation"](https://www.turing.ac.uk/events/approximating-high-dimensional-functions/), Alan Turing Institute, London. Click on the image below to see a video of this talk:'
+  photos:
+  - src: slides/turing2017.jpg
+    link: https://www.youtube.com/watch?v=F6MBBqnfDeQ#t=68m26s
+- date: 2017/12/12
+  text: 'Talk: "Concentration of variational approximations", statistics seminar, Université Pierre et Marie Curie, Paris.'
+- date: 2017/10/17
+  text: 'Talk: "On the properties of variational approximations of Gibbs posteriors", RIKEN AIP, Tokyo.'
+- date: 2017/09/22
+  text: 'Talk: "Concentration of variational approximations", [France/Japan Machine Learning workshop](http://fjml.marcocuturi.net/), Paris.'
+- date: 2017/06/14
+  text: 'Talk: "Regularization with Lipschitz loss", Le Cam Data Science Colloquium, Université Paris Saclay.'
+- date: 2017/06/12
+  text: 'Talk: "Regularization with Lipschitz loss", Séminaire de Statistique, Université Aix-Marseille.'
+- date: 2017/06/07
+  text: 'Talk: "Outils statistiques et algorithmiques pour la complétion de matrices", mini-symposium ''Big Data'' SMAI, Ronce-les-Bains.'
+- date: 2017/05/17
+  text: 'Talk: ["Regularization with Lipschitz losses"](slides/ihes2017.pdf), SSSL working group, IHES, Univ. Paris-Saclay.'
+- date: 2017/04/27
+  text: 'Poster (with Léna Carel): NMF and passengers profile clustering, ESANN 2017, Bruges, Belgium.'
+  photos:
+  - src: photos_moi/bruges17.jpg
+- date: 2017/04/20
+  text: 'Poster (with The Tien Mai): regret bounds for lifelong learning, AISTATS2017, Fort Lauderdale, USA.'
+  photos:
+  - src: photos_moi/miami17-1.jpg
+  - src: photos_moi/miami17-2.jpg
+- date: 2017/01/12
+  text: 'Talk: "On the properties of VB approximations of Gibbs posteriors" (keynote speaker), SMPGD 2017, Imperial College London.'
+- date: 2017/01/10
+  text: 'Talk: "Outils statistiques et algorithmiques pour la complétion de matrices", séminaire Big Data de la DREES, Paris.'
+- date: 2016/10/24
+  text: 'Talk: "Outils statistiques et algorithmiques pour la complétion de matrices", [Machine Learning Meetup, Pau](https://www.meetup.com/fr-FR/Meetup-Machine-Learning-Pau/).'
+- date: 2016/10/17
+  text: 'Talk: "1-bit matrix completion: a machine learning approach" at the statistics seminar of CREST, ENSAE, Paris.'
+- date: 2016/06/10
+  text: 'Talk: "On the properties of variational approximations of Gibbs posteriors", workshop on Big Data, Centrale Lille.'
+- date: 2016/05/03
+  text: 'Talk: "Pseudo-Bayesian estimation of low-rank matrices", Université Paris Est (Créteil).'
+- date: 2016/03/23
+  text: 'Talk: "On the properties of variational approximations of Gibbs posteriors", IHES, Université Paris Saclay. Click on the image below to see a video of this talk:'
+  photos:
+  - src: slides/ihes2016.jpg
+    link: http://www.youtube.com/watch?v=5E-asFfXeQ0
+  - src: slides/poster-ihes-2.jpg
+- date: 2016/01/08
+  text: 'Talk: "PAC-Bayesian Bounds and Aggregation: Introduction, and Algorithmic issues", IHES, Université Paris-Saclay.'
+- date: 2016/01/04
+  text: 'Talk: ["PAC-Bayesian Bounds and Aggregation: Introduction, and Algorithmic issues"](slides/agro2016.pdf), AgroParisTech.'
+- date: 2015/10/29
+  text: 'Talk: "On the Properties of Variational Approximations in Statistical Learning", statistics seminar, UCD Dublin.'
+- date: 2015/10/22
+  text: 'Talk: "PAC-Bayesian Bounds and Aggregation: Introduction, and Algorithmic issues", JSTAR, Rennes.'
+- date: 2015/06/09
+  text: 'Talk: "Bayesian estimation of low-rank matrices", workshop "High-Dimensional Problems and Quantum Stat.", Marne-la-Vallée.'
+- date: 2015/05/12
+  text: 'Talk: "Bayesian Matrix Completion", conference in honour of Paul Doukhan, IHP, Paris.'
+- date: 2015/05/05
+  text: 'Talk: "Bayesian estimation of low-rank matrices", Toulouse School of Economics.'
+- date: 2015/04/21
+  text: 'Talk: "Bayesian estimation of low-rank matrices", MODAL, INRIA Lille.'
+- date: 2015/04/16
+  text: 'Talk: "Bayesian estimation of low-rank matrices", Université Paris Sud, Orsay.'
+- date: 2015/03/19
+  text: 'Talk: "Bayesian estimation of low-rank matrices", Université Paris 10, Nanterre.'
+- date: 2015/01/08
+  text: 'Talk: "Bayesian matrix completion", "Rencontres ENSAE-ENSAI", ENSAE, Paris.'
+- date: 2014/11/26
+  text: 'Talk: "Stability of Markov Chains and Approximate MCMC methods", "Journées MCMC", Marseille.'
+- date: 2014/10/17
+  text: 'Talk: "Stability of Markov Chains and Approximate MCMC methods", BiP (Bayes in Paris), ENSAE, Paris.'
+- date: 2014/10/06
+  text: 'Talk: "Bayesian Matrix Completion", SMILE in Paris, ENS, Paris.'
+- date: 2014/07/10
+  text: Talk at the "Australian Statistical Conference & IMS Annual Meeting", Australian Technology Park, Sydney.
+- date: 2014/06/09
+  text: Talk at the "Journées de Statistique du Sud", CRM, Barcelona.
+- date: 2013/12/02
+  text: 'Talk: "Estimation bayésienne de matrices de faible rang", séminaire de statistique du CREST, Paris'
+- date: 2013/10/08
+  text: 'Talk: "Bayesian estimation of low-rank matrices: short survey and theoretical study", ALT''13, NUS, Singapore.'
+- date: 2013/09/27
+  text: Short talk on sparse vector recovery, School's "get together" (School of Mathematical Sciences), University College Dublin.
+- date: 2013/09/20
+  text: 'Talk: "Bayesian estimation of low-rank matrices", Working group on statistical learning, University College Dublin.'
+- date: 2013/05/15
+  text: 'Talk: "Rank-penalized estimation of a quantum system", CASI2013 (Conference on Applied Statistics in Ireland), NUI Maynooth.'
+- date: 2012/12/16
+  text: 'Talk: "Fast rates in learning with dependent observations", Nonparametric and High-dimensional Statistics, CIRM, Luminy.'
+- date: 2012/10/01
+  text: 'Talk: "PAC-Bayesian bounds for high-dimensional estimation", Trinity College Dublin.'
+- date: 2012/06/26
+  text: 'Poster: "PAC-Bayesian bounds for high-dimensional estimation" at the "ISBA 2012 World Meeting", Kyoto.'
+- date: 2012/04/13
+  text: 'Talk: "Prévision de séries temporelles faiblement dépendantes", GT "Prévisions", org. Mathieu Cornec, à l''ENGREF, Paris.'
+- date: 2012/03/26
+  text: 'Talk: "Agrégation de modèles pour l''auto-régression", exposé au séminaire SMILE, ENS Ulm, Paris.'
+- date: 2012/02/02
+  text: Talk (sur Dai, D. and Zhang, T., Greedy Model Averaging, NIPS 2011) au groupe de lecture MCBayes à l'ENSAE, Paris.
+- date: 2012/02/01
+  text: 'Talk: "Model selection/aggregation for autoregression": 4h de cours, cycle "Non stationnarité", Université de Cergy-Pontoise.'
+- date: 2011/12/17
+  text: 'Talk at the "ERCIM" conf.: "Estimation by projection on confidence regions", University of London.'
+- date: 2011/12/12
+  text: 'Talk: "Estimation PAC-Bayésienne en grande dimension",séminaire de stats., Université d''Angers.'
+- date: 2011/11/18
+  text: Talk (sur Yang, Biometrika, 2005) au "groupe de lecture fréquentiste" du CREST, ENSAE, Paris.
+- date: 2011/11/08
+  text: 'Talk at the conf. "Non stationarity": "Sparsity considerations for dependent observations", Université de Cergy-Pontoise.'
+- date: 2011/10/31
+  text: 'Talk: "PAC-Bayesian estimation in high dimension", University of Vienna.'
+- date: 2011/08/31
+  text: 'Talk: "Bornes PAC-Bayésiennes pour la sélection de variables en grande dimension", journée ANR Bandhits, ENSAE, Paris.'
+- date: 2011/06/09
+  text: Talk at the International Workshop on Perspectives on High-dimensional Data Analysis, Fields Institute, Toronto.
+- date: 2011/05/27
+  text: 'Talk: "Sélection automatique de blocs de variables", exposé aux Journées de Statistiques 2011 de la SFDS, Gammarth.'
+- date: 2011/03/09
+  text: 'Talk: "Estimation parcimonieuse pour des variables dépendantes", laboratoire AGM, Université de Cergy-Pontoise.'
+- date: 2011/02/10
+  text: 'Talk: "Modèle de single-index sparse", groupe de travail "MC-Bayes", org. Nicolas Chopin, ENSAE, Paris.'
+- date: 2011/01/10
+  text: 'Talk: "Modèle de single-index sparse", séminaire parisien de statistique à l''IHP, Paris.'
+- date: 2010/12/17
+  text: 'Talk: "Sparse single-index model", rencontres de statistiques mathématiques, org. L. Cavalier & O. Lepski, CIRM, Luminy.'
+- date: 2010/12/10
+  text: 'Talk: "Prévision de séries temporelles par apprentissage statistique", GT "Prévisions", org. Mathieu Cornec, à l''ENGREF, Paris.'
+- date: 2010/12/01
+  text: 'Talk: "PAC-Bayesian theorems for sparse regression estimation", Weierstrass Institut, Berlin.'
+- date: 2010/10/06
+  text: 'Talk: "An algorithm for iterative selection of blocks of features", ALT 2010, Australian National University, Canberra.'
+- date: 2010/09/01
+  text: 'Talk: "Sélection de modèles pour prédiction de séries temporelles faiblement dépendantes", journées MAS (SMAI), Bordeaux.'
+- date: 2010/03/23
+  text: 'Talk at the workshop "Foundations and new trends of PAC-Bayesian learning", University College, London. Click on the image below to see a video of this talk:'
+  photos:
+  - src: slides/london2010.jpg
+    link: http://videolectures.net/pacbayesian_alquier_pbb/
+- date: 2010/01/29
+  text: 'Talk: "Théorèmes PAC-Bayésiens pour l''estimation sparse de la régression", séminaire de statistique de l''IRMAR, Rennes.'
+- date: 2010/01/04
+  text: 'Talk: "Bornes PAC-Bayésiennes pour des estimateurs parcimonieux de la régression", GT de statistique du LPMA, Paris.'
+- date: 2009/10/30
+  text: 'Talk: "Model selection and randomization for wealky dependent time series forecasting", ERCIM workshop statistics, Limassol.'
+- date: 2009/02/05
+  text: 'Talk: "Inégalités PAC-Bayésiennes", groupe de travail bayésien du CREST et de Telecom Paris, à l''ENSAE, Paris.'
+- date: 2008/12/11
+  text: Talk à la "journée "apprentissage" de l'Université Nancy 1, Nancy.
+- date: 2008/11/27
+  text: 'Talk: "Bornes PAC-Bayésiennes pour des estimateurs par minimisation du risque empirique", Univ. Paris Sud, Orsay.'
+- date: 2008/10/10
+  text: 'Talk: "Bornes PAC-Bayésiennes et estimateurs randomisés, part 2", groupe de travail "sparsité", ENSAE, Paris.'
+- date: 2008/09/26
+  text: 'Talk: "Bornes PAC-Bayésiennes et estimateurs randomisés, part 1", groupe de travail "sparsité", ENSAE, Paris.'
+- date: 2008/09/01
+  text: 'Talk: "PAC-Bayesian bounds for randomizes empirical risks minimizers", journées "stat. math. et applications", Fréjus.'
+- date: 2008/07/24
+  text: Talk at the workshop "new trends in model selection and related areas", University of Vienna.
+- date: 2008/07/08
+  text: Informal talk at the probability summer school, Saint-Flour.
+- date: 2008/06/20
+  text: 'Talk: "PAC-Bayesian bounds and model selection", workshop of the ERCIM, Neuchatel.'
+- date: 2008/04/04
+  text: 'Talk: "Bornes PAC-Bayésiennes pour des estimateurs par minimisation du risque empirique", SAMOS, Université Paris 1.'
+- date: 2008/02/11
+  text: 'Talk: "Bornes PAC-Bayésiennes pour des minimiseurs (randomisés) du risque empirique", GT de statistique du LPMA, Paris.'
+- date: 2008/02/01
+  text: Talk au GT "sparsité", org. A. Tsybakov, ENSAE, Paris.
+- date: 2007/06/14
+  text: Talk at the conference on "ordered statistical data and inequalities", Amman University, Amman.
+- date: 2006/12/22
+  text: 'Talk: "Sélection itérative de variables en estimation de régression", séminaire du LATP, Marseille.'
+- date: 2006/09/06
+  text: 'Talk: "Sélection itérative de variables en estimation de régression", journées MAS de la SMAI, Lille.'
+- date: 2006/05/31
+  text: Poster at the conference "Mathematical foundations of learning theory II", ENS, Paris.
+- date: 2006/04/24
+  text: 'Talk: "Sélection itérative de variables en estimation de régression", colloque "Jeunes probabilistes et statisticiens", Aussois.'
+- date: 2006/03/13
+  text: 'Talk: "Sélection itérative de caractéristiques pour l''estimation de la régression", GT de stats. du LPMA, Paris.'
+- date: 2005/11/27
+  text: 'Talk: "Sélection itérative de variables pour l''estimation de la régression", GT "apprentissage" de l''ENS Ulm, Paris.'
+- date: 2005/10/13
+  text: 'Talk: "Sélection itérative de variables pour l''estimation de la régression", GT de stats., ENSAE, Paris.'

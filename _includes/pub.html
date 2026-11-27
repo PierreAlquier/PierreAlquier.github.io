@@ -1,0 +1,5 @@
+<li class="item pub">
+  <div class="item-title">{% if p.url %}<a href="{{ p.url }}">{{ p.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}</a>{% else %}{{ p.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% endif %}</div>
+  {% if p.authors %}<div class="item-sub">{{ p.authors | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div>{% endif %}
+  <div class="item-meta">{% if p.venue %}<em>{{ p.venue | markdownify | remove: "<p>" | remove: "</p>" | strip }}</em>{% if show_year and p.year %}, {{ p.year }}{% endif %}{% if p.details %}, {% endif %}{% elsif show_year and p.year %}{{ p.year }}{% if p.details %} · {% endif %}{% endif %}{% if p.details %}{{ p.details | markdownify | remove: "<p>" | remove: "</p>" | strip }}{% endif %}{% if p.status %} <span class="tag">{{ p.status }}</span>{% endif %}</div>
+</li>

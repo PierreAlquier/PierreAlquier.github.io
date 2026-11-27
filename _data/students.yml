@@ -1,0 +1,55 @@
+# STUDENTS
+# current: current PhD students; former: former PhD students; msc: MSc theses supervised.
+# Each: name, url (optional personal page), details (Markdown), photo (optional, e.g. photos_moi/xxx.jpg).
+
+current:
+- name: Valentin Vidril
+  url: https://www.researchgate.net/profile/Valentin_Vidril
+  details: co-supervised with [James Ridgway (CFM)](https://scholar.google.com/citations?user=hSYVsQQAAAAJ&hl=fr), (Université de Cergy - ESSEC Business School).
+- name: Vahe Karagulyan
+  url: https://v-ahe.github.io/
+  details: (ESSEC Business School).
+former:
+- name: EL Mahdi Khribch
+  url: https://mehdi-khribch.github.io/
+  details: '"Contributions to the Theory of Bayesian Computation: Bias, Information, and Robustness", co-supervised with [Pierre Jacob](https://sites.google.com/site/pierrejacob/) at ESSEC Business School & CY Cergy Paris Université. Link to the [thesis](https://doi.org/10.70675/0228b1f7zf858z4e0ezb3fazf06640a06327).'
+  photo: photos_moi/mehdi_and_pierre.jpg
+- name: Amélie Rosier
+  url: https://www.aiesme.org/en/cv/amelie-rosier/paris/2020
+  details: '"Quelques contributions à la statistique des modèles dynamiques aléatoires", co-supervised with [N. Marie](http://sites.google.com/site/nmariemath/recherche) at Université Paris Nanterre & ESME Sudria, 2020-2023. Link to the [thesis](https://www.theses.fr/s258861).'
+  photo: photos_moi/amelie1.jpg
+- name: Badr-Eddine Cherief-Abdellatif
+  url: http://badreddinecheriefabdellatif.github.io/
+  details: '"Contributions to the theoretical study of variational inference and robustness", ENSAE 2017-2020. Link to the [thesis](https://www.theses.fr/2020IPPAG001).'
+  photo: photos_moi/badr_riken.jpg
+- name: Léna Carel
+  url: http://sites.google.com/view/lenacarel
+  details: '"Analyse de données volumineuses dans le domaine du transport", thèse Cifre en partenariat avec [transdev](http://www.transdev.com/), ENSAE 2016-2019. Link to the [thesis](http://www.theses.fr/en/2019SACLG001).'
+  photo: photos_moi/thesislena.jpg
+- name: Vincent Cottet
+  url: https://sites.google.com/site/vincentcottet/
+  details: '"Theoretical Study of some Statistical Procedures applied to Complex Data", ENSAE, 2014-2017 (co-supervised with Nicolas Chopin). Link to the [thesis](http://www.theses.fr/en/2017SACLG002).'
+  photo: photos_moi/thesisvincent.jpg
+- name: The Tien Mai
+  url: https://www.fhi.no/en/ab/departments-and-centres/food-safety/the-tien-mai/
+  details: '"Bayesian estimation of low-rank matrices", UCD Dublin 2014-2015 then ENSAE 2015-2017. Link to the [thesis](http://www.theses.fr/en/2017SACLG001).'
+  photo: photos_moi/thesistien.jpg
+msc:
+- name: Pieter Jan Motmans
+  url: https://be.linkedin.com/in/pieter-jan-motmans-5577061b0
+  details: (ESSEC Business School, with [Guillaume Chevillon](https://guillaume-chevillon.faculty.essec.edu/) and [Pierre Jacob](https://sites.google.com/site/pierrejacob/)) -- 2023.
+- name: Dimitri Meunier
+  url: https://dimitri-meunier.github.io
+  details: (ENSAE Paris, with [Arnak Dalalyan](https://adalalyan.github.io/)) -- 2020.
+- name: Lucie Perrotta
+  url: https://people.epfl.ch/lucie.perrotta
+  details: (EPFL and RIKEN AIP, with [Emti Khan](https://emtiyaz.github.io/) and [Emre Telatar](https://people.epfl.ch/emre.telatar/)) -- 2020.
+- name: Keefe Murphy
+  url: https://scholar.google.com/citations?user=cMK8sY4AAAAJ&hl=en
+  details: (UCD Dublin) -- 2014.
+- name: Vincent Cottet
+  url: https://sites.google.com/site/vincentcottet/
+  details: (UCD Dublin) -- 2014.
+- name: Lucy Small
+  url: http://www.insight-centre.org/users/lucy-small
+  details: (UCD Dublin) -- 2013.

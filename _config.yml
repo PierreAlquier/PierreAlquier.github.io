@@ -1,0 +1,6 @@
+# Site settings (GitHub Pages builds the site automatically with Jekyll).
+title: Pierre Alquier
+markdown: kramdown
+exclude:
+  - README.md
+  - MISE-A-JOUR.md
